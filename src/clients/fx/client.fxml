@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="clients.fx.Client">
+  <children>
+    <ScrollPane fx:id="scroll" content="$null" layoutX="14.0" layoutY="27.0" prefHeight="322.0" prefWidth="572.0" />
+    <Button layoutX="523.0" layoutY="364.0" mnemonicParsing="false" onAction="#send" text="Send" />
+    <Label fx:id="jlNumberOfClients" layoutX="15.0" layoutY="6.0" text="Label" />
+    <TextField fx:id="jtfName" layoutX="15.0" layoutY="364.0" prefWidth="74.0" text="Input name" />
+    <TextField fx:id="jtfMessage" layoutX="89.0" layoutY="364.0" prefWidth="426.0" text="Input you message" />
+    <Button onAction="#load" layoutX="572.0" layoutY="364.0" minWidth="14.0" mnemonicParsing="false" prefWidth="14.0" text="..." />
+  </children>
+</AnchorPane>
